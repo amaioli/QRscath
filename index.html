@@ -9,23 +9,23 @@
   
 <body>
   
-  <button id = "QR"> Do it! </button>
-  <button id = "Clear"> Clear! </button>
-  <div id = "Results"></div>
+  <button id="QR"> Do it! </button>
+  <button id="Clear"> Clear! </button>
+  <div id="Results"></div>
   
   
-  <script src "/js/zepto.js">  </script>
-  <script src "/js/Silly.js">  </script>
+  <script src="./js/zepto.js">  </script>
+  <script src="./js/Silly.js">  </script>
   
   <script>
-    $('#QR').click(function() {
-      SILLY.DoIt($('#Results'))
-      
-    }
+   $('#QR').click(function() {
+   SILLY.DoIt($('#Results'));
+     
+   });
     $('#Clear').click(function() {
-      $('#Results').html('')
+      $('#Results').html('');
       
-    }
+    });
     
     
     
@@ -33,5 +33,4 @@
 </body>
   
 </html>
-
 
