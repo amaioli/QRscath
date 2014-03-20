@@ -1,0 +1,36 @@
+#Results {color: green;}
+
+button {
+ outline: none;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ font: bold 12px Arial, Helvetica, sans-serif;
+ color: #fff;
+ padding: 10px 20px;
+ border: solid 1px #0076a3;
+ background: #0095cd;
+ 
+}
+button:hover {
+ outline: none;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ font: bold 12px Arial, Helvetica, sans-serif;
+ color: red;
+ padding: 10px 20px;
+ border: solid 1px #0076a3;
+ background: #0095cd;
+ }
+
+div {
+
+ margin-top: 50px; 
+ margin-right:70px; 
+ margin-bottom: 10px;
+ margin-left: 20px;
+ border-color: blue;
+ border-style: solid;
+ float:center;
+}
